@@ -1,0 +1,89 @@
+@font-face{
+    font-family: Quicksand-Bold;
+    src: url(../font/Quicksand-Bold.otf);
+}
+@font-face{
+    font-family: Quicksand-Light;
+    src: url(../font/Quicksand-Light.otf);
+}
+@font-face{
+    font-family: Quicksand-Regular;
+    src: url(../font/Quicksand-Regular.otf);
+}
+.circle{
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #2B7379;
+}
+.circle h2{
+    line-height: 2.7;
+}
+#name{
+    font-family: Quicksand-Bold;
+    background: #6BBAB5;
+    padding: 10px;
+}
+#name h1{
+    line-height: 1.4;
+}
+.input-box{
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+}
+.input-box .left-side{
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+.input-box .left-side input{
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    border: none;
+    border-bottom: 1px solid  #3F5866;
+    background: none;
+}
+.input-box .left-side input::placeholder{
+    color: aliceblue;
+}
+
+.input-box .right-side {
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+.input-box .right-side .go{
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    background:  #3F5866;
+    color: aliceblue;
+}
+
+button{
+    color: #2B7379;
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    border: none;
+}
+button h3{
+    margin-top: 5px;
+}
+button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    transform: scale(0.9);
+}
+.more{
+    background: #96CEB4;
+}
+.update{
+    background: #FF6F69;
+}
+.delete{
+    background: #F23C50;
+}

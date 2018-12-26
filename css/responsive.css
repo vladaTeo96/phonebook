@@ -1,0 +1,43 @@
+@media only screen and (max-width: 575px){
+    h1{
+        font-size: 23px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .circle{
+        border-radius: 0px;
+        width: 100%;
+    }
+    .circle h2{
+        line-height: 3.5;
+    }
+    h3{
+        font-size: 14px;
+    }
+    #drop-down .icon-area .icon-font i{
+        font-size: 24px;
+        line-height: 2;
+    }
+    #drop-down .icon-area-diff .icon-font-diff i{
+        font-size: 24px;
+        line-height: 2;
+    }
+    .number{
+    word-wrap: break-word;
+    width: 60%;
+    }
+    #drop-down .btn-area .update{
+        position: relative;
+        left: 100%;
+        transform: translate(-100%);
+        
+    }
+    #drop-down .btn-area .update h3{
+        font-size: 12px;
+    }
+    .input-box .left-side input::placeholder{
+        font-size: 12px;
+    }
+
+}

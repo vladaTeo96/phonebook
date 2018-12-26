@@ -1,0 +1,92 @@
+@font-face{
+    font-family: Quicksand-Bold;
+    src: url(../font/Quicksand-Bold.otf);
+}
+@font-face{
+    font-family: Quicksand-Light;
+    src: url(../font/Quicksand-Light.otf);
+}
+@font-face{
+    font-family: Quicksand-Regular;
+    src: url(../font/Quicksand-Regular.otf);
+}
+
+.green-light{
+    background: #6BBAB5;
+}
+.green-dark{
+    background: #2B7379;
+}
+.overflow-hidden{
+    overflow: hidden;
+}
+.border-bottom{
+    border-bottom: 1px solid #96CEB4;
+}
+#drop-down{
+    font-family: Quicksand-Light;
+}
+#drop-down i{
+    margin-top: 20px;
+    font-size: 40px;
+}
+#drop-down .icon-area{
+    width: 100%;
+    height: 100px;
+    background: #6BBAB5;
+    transform: skew(-15deg);
+    position: relative;
+}
+#drop-down .icon-area .icon-font{
+    width: 100%;
+    height: 100%;
+    background: #6BBAB5;
+    transform: skew(15deg);
+    position: absolute;
+    left: -20px;
+    text-align: center
+}
+#drop-down .icon-area-diff{
+    width: 100%;
+    height: 100px;
+    background: #6BBAB5;
+    transform: skew(15deg);
+    position: relative;
+}
+#drop-down .icon-area-diff .icon-font-diff{
+    width: 100%;
+    height: 100%;
+    background: #6BBAB5;
+    transform: skew(-15deg);
+    position: absolute;
+    left: -20px;
+    text-align: center
+
+}
+.number{
+    text-align: center;
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+.number h3{
+    margin-top: 35px;
+}
+button{
+    font-family: Quicksand-Bold;
+}
+.btn-area{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+.btn-area button{
+    margin-top: 25px;
+}
+
+#drop-down .input-box .right-side{
+    width: 25%;
+}
+#drop-down .input-box {
+    margin-top: 25px;
+}

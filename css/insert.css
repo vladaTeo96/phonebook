@@ -1,0 +1,83 @@
+@font-face{
+    font-family: Quicksand-Bold;
+    src: url(../font/Quicksand-Bold.otf);
+}
+@font-face{
+    font-family: Quicksand-Light;
+    src: url(../font/Quicksand-Light.otf);
+}
+@font-face{
+    font-family: Quicksand-Regular;
+    src: url(../font/Quicksand-Regular.otf);
+}
+*{
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+.margin-top{
+    margin-top: 10px;
+}
+.blue-light{
+    background: #00ADB5;
+}
+#insert {
+    text-align: center;
+    margin-top: 10px;
+    font-family: Quicksand-Regular;
+}
+#insert h1{
+    background: #3F5866;
+}
+#insert h1 i:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.insert-data{
+    width: 100%;
+    height: 70px;
+    background: #3F5866;
+    transform: skew(-15deg);
+    position: relative;
+}
+.insert-data .insert-data-area{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background: #3F5866;
+    transform: skew(15deg);
+    position: absolute;
+    left: -20px;
+}
+.insert-data .insert-data-area i{
+    font-size: 30px;
+    line-height: 2.2;
+}
+#drop-down-insert{
+    font-family: Quicksand-Bold;
+}
+#drop-down-insert input{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 10px);
+    padding: 10px;
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid #3F5866;
+    background: none;
+    color: aliceblue;
+}
+#drop-down-insert input::placeholder{
+    color: aliceblue;
+}
+
+.insert{
+    width: 100%;
+    height: 50px;
+    background: #00ADB5;
+    color: #3F5866;
+    margin: 10px auto;
+}
+.padding-bottom{
+    padding-bottom: 50px;
+}

@@ -1,0 +1,50 @@
+@font-face{
+    font-family: Quicksand-Bold;
+    src: url(../font/Quicksand-Bold.otf);
+}
+@font-face{
+    font-family: Quicksand-Light;
+    src: url(../font/Quicksand-Light.otf);
+}
+@font-face{
+    font-family: Quicksand-Regular;
+    src: url(../font/Quicksand-Regular.otf);
+}
+*{
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../img/back.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+h1{
+    padding: 10px;
+    font-size: 30px;
+}
+h2{
+    font-size: 25px;
+}
+h3{
+    font-size: 20px;
+}
+h4{
+    font-size: 15px;
+}
+h5{
+    font-size: 10px;
+}
+h6{
+    font-size: 7px;
+}
+#header {
+    margin-top: 50px;
+    font-family: Quicksand-Regular;
+}
+#header h1{
+    background: #3F5866;
+}
